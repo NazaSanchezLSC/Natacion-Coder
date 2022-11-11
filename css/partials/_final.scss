@@ -1,0 +1,50 @@
+#final{
+    width: 100%;
+    background-color: #063864;
+}
+#final .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+#final .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#final .grupo-1 .box figure img{
+    width: 250px;
+    font-size: small;
+    border-radius: 50%;
+}
+#final .grupo-1 .box .redes a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: aliceblue;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #0367be;
+    text-align: center;
+    transition: all 300 ease;
+}
+#final .grupo-2{
+    background-color: #011220;
+    padding: 15px 10px;
+    text-align: center;
+    color: aliceblue;
+}
+#final .grupo-2 small{
+    font-size: 15px;
+}
+footer div div h3{
+    margin-bottom: 20px;
+}

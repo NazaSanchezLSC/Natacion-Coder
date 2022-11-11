@@ -1,0 +1,137 @@
+header {
+  background-color: black;
+  display: block;
+  width: 100%;
+  height: 180px;
+  z-index: 1;
+  padding: 40px;
+}
+
+header a img {
+  border-radius: 50%;
+  -webkit-animation: move-vector 4s linear infinite;
+          animation: move-vector 4s linear infinite;
+}
+
+@-webkit-keyframes move-vector {
+  0% {
+    transform: translateX(15px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(15px);
+  }
+}
+
+@keyframes move-vector {
+  0% {
+    transform: translateX(15px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(15px);
+  }
+}
+.imagen {
+  border-radius: 3%;
+  box-shadow: rgb(10, 0, 0) 5px 5px 5px;
+}
+
+#final {
+  width: 100%;
+  background-color: #063864;
+}
+
+#final .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+#final .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#final .grupo-1 .box figure img {
+  width: 250px;
+  font-size: small;
+  border-radius: 50%;
+}
+
+#final .grupo-1 .box .redes a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: aliceblue;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #0367be;
+  text-align: center;
+  transition: all 300 ease;
+}
+
+#final .grupo-2 {
+  background-color: #011220;
+  padding: 15px 10px;
+  text-align: center;
+  color: aliceblue;
+}
+
+#final .grupo-2 small {
+  font-size: 15px;
+}
+
+footer div div h3 {
+  margin-bottom: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+}
+
+h2 {
+  padding: 1%;
+  font-size: 40px;
+}
+
+h3 {
+  padding: 1%;
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+iframe {
+  padding: 15px;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  text-align: justify;
+  line-height: 150%;
+  margin-bottom: 30px;
+  font-size: 20px;
+}/*# sourceMappingURL=estilo.css.map */
