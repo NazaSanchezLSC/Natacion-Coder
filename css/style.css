@@ -167,7 +167,7 @@ section article div iframe{
 footer div div h3{
     margin-bottom: 20px;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 2560px) {
     .fondo{
         background-position: 50%;
     }
@@ -180,6 +180,9 @@ footer div div h3{
     header{
         padding: 10px;
         margin: auto;
+    }
+    header a img{
+        display: none;
     }
     section article img{
         background-position: 50%;
@@ -199,12 +202,5 @@ footer div div h3{
     #botones{
         flex-direction: row;
         justify-content: space-around;
-    }
-}
-@media screen and (min-widht: 768px){
-    nav ul li{
-        flex-direction: row;
-        list-style: none;
-        margin: 20px;
     }
 }
